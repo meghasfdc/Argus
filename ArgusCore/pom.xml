@@ -216,7 +216,7 @@
         <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
-            <version>4.0</version>
+            <version>5.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
@@ -257,12 +257,12 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka_2.10</artifactId>
-            <version>0.8.2.1</version>
+            <version>0.10.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-           <version>0.8.2.1</version>
+           <version>0.10.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -341,7 +341,7 @@
         <dependency>
             <groupId>org.apache.hbase</groupId>
             <artifactId>hbase-client</artifactId>
-                <version>1.4.2</version>
+                <version>2.3.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jersey-core</artifactId>
@@ -390,7 +390,7 @@
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
-            <version>4.13.1-HBase-0.98</version>
+            <version>5.1.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>jersey-core</artifactId>
@@ -417,12 +417,12 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-x-discovery</artifactId>
-            <version>2.10.0</version>
+            <version>4.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
-            <version>2.11.1</version>
+            <version>4.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
@@ -447,7 +447,7 @@
         <dependency>
           <groupId>org.freemarker</groupId>
           <artifactId>freemarker</artifactId>
-          <version>2.3.28</version>
+          <version>2.3.30</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
